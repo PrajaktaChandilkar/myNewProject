@@ -1,0 +1,80 @@
+.navbar {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 20px;
+    /* margin-left: 100px; */
+}
+.navbar-brand{
+    font-family: 'Montserrat';
+    padding-left: 0px;
+}
+.collapse-navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav1 {
+    display: flex;
+    height: 54px;
+    width: 324.px;
+    left: 831px;
+    top: 2px;
+    border-radius: 0px;
+    /* margin-left: 100px; */
+
+}
+.nav1 a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: 0.2px;
+    vertical-align: top;
+    color: #737373;
+    margin: 20px;
+}
+.nav2 {
+    display: flex;
+    height: 54px;
+    width: 324px;
+    left: 1831px;
+    top: 2px;
+    margin-left:210px ;
+}
+.login{
+    color:#23A6f0;
+    display: flex;
+    gap: 30px;
+    margin: 20px;
+}
+.login a{
+    color: #23A6f0;
+}
+.total {
+    position: relative;
+    margin-top: -8px;
+    font-family: "Monserret";
+    
+} 
+.login .register{
+    gap:30px;
+}
+.register a{
+    padding-left: 10px;
+    text-decoration: none;
+}
+.search-btn{
+    background: none;
+    border: none;
+    margin-left: 20px;
+}
+.heart{
+    display: flex;
+}
+.add {
+    display: flex;
+}
+
