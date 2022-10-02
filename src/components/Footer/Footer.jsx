@@ -1,5 +1,6 @@
 import React from "react";
 import './Footer.css'
+import SaveResponse from "./SaveResponce";
 function Footer() {
     return (
         <footer>
@@ -44,10 +45,7 @@ function Footer() {
                     <ul>
                         <li><h5>Get in Touch</h5></li>
                         <li>
-                            <div className="subscribe">
-                                <input type="email" name="email" id="email" placeholder="Enter email" />
-                                <button>Subscribe</button>
-                            </div>
+                         <SaveResponse />
 
                         </li>
                         <li>lorem ispan</li>
